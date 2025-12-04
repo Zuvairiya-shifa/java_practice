@@ -1,3 +1,4 @@
+import java.util.Scanner;
 public class string_method{
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
@@ -11,7 +12,7 @@ public class string_method{
 
         }
         string spl="!@#$%^&*()_+";
-        else if (input==spl){
+        else if (input.contains(spl)){
             System.out.println("special character");
         }
 
